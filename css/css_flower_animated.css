@@ -1,0 +1,278 @@
+body {
+  background: #ffffff;
+}
+
+.container-flower {
+  /* width: 50%; */
+  /* margin: 0 auto; */
+  width: 80%;
+  height: max-content;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.masthead .js-scroll-trigger {
+  position: absolute !important;
+  top: 90% !important;
+  left: 50% !important;
+  -ms-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.masthead .js-scroll-trigger img {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (min-width: 767px) {
+  .container-flower {
+    width: 40%;
+  }
+}
+
+svg#flower-frame {
+  /* height: 75vh;
+  max-width: 90vw;
+  width: auto; */
+  height: 75%;
+    max-width: 100%;
+    width: auto;
+}
+
+
+
+#Footer_group_1_,
+[id^="PinkFlowerGroup"],
+[id^="BaseGroup"] path,
+[id^="LeafGroup"] path,
+path[id^="Stroke"],
+g[id^="BudGroup"] g[id^="BudGroup"] g[id^="Bud"],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^="Dots"],
+[id^="Flourish"] {
+  visibility: hidden;
+}
+
+.st0 {
+  fill: #FFFFFF;
+}
+
+.st1 {
+  fill: none;
+  stroke: #215F7E;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st2 {
+  fill: #64C1BB;
+}
+
+.st3 {
+  fill: none;
+  stroke: #21A5AF;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st4 {
+  fill: none;
+  stroke: #21A5AF;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st5 {
+  /* fill: #FCD8C5; */
+  fill: #971611;
+}
+
+.st6 {
+  fill: #21A5AF;
+}
+
+.st7 {
+  fill: none;
+  stroke: #21A5AF;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st8 {
+  /* fill: #F7A998; */
+  fill: #820803;
+}
+
+.st9 {
+  fill: #F3CE7F;
+}
+
+.st10 {
+  fill: #14A4AE;
+}
+
+.st11 {
+  fill: #61BFBA;
+}
+
+.st12 {
+  /* fill: #FDD9C6; */
+  fill: #971611;
+}
+
+.st13 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.st14 {
+  display: none;
+  fill: #FFFFFF;
+}
+
+/** MESSAGE **/
+.message{
+  /* transform: scale(1.5); */
+  /* position: absolute; */
+  /* left: 0; */
+  /* right: 0; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* top: 0; */
+  /* bottom: 0; */
+  /* width: 60%; */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.date{
+  transform: scale(0.75)
+}
+.message path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 10s ease-in-out forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+/*     fill: black; */
+  }
+}
+
+
+
+/* .message, .date{
+  font-family: 'Lovers Quarrel', cursive;
+  font-size: 10em;
+} */
+
+/* .mask-background ul{
+  position:absolute;
+  margin:0;
+  padding:0;
+} */
+
+.mask-background li{
+  text-align:center;
+  /* display:inline-block; */
+  width: fit-content;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  /* box-shadow:0 0 15px 0px #555; */
+  /* transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease; */
+  /* top:50px; */
+}
+/* 
+.mask-background li:nth-child(1){
+    transform:rotate(10deg);
+}
+
+.mask-background li:nth-child(2){
+    transform:rotate(0deg);
+}
+
+.mask-background li:nth-child(3){
+    transform:rotate(-10deg);
+}
+
+.mask-background li:nth-child(4){
+    transform:rotate(20deg);
+}
+
+.mask-background p{
+  margin:-15px 0 0 0;
+} */
+
+
+
+
+.tech-slideshow {
+  height: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+/* .tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+} */
+
+.tech-slideshow ul {
+  animation: moveSlideshow 12s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
