@@ -10863,3 +10863,11 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+.tag_a_nostyle {
+  color: currentColor !important;
+}
+
+.tag_a_nostyle:hover {
+  text-decoration: none !important;
+}
